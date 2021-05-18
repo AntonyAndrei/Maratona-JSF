@@ -60,6 +60,20 @@
 
     <!--Executando Metodos-->
     #{estudanteRegistrarBean.executar()}
+    <!--Com Parametro-->
+    #{estudanteRegistrarBean.executar("xuxu beleza")}
+    <!--Com Parametro vindo do Bean-->
+    #{estudanteRegistrarBean.executar(estudanteRegistrarBean.estudante.nome)}
+    <!--Metodos de retorno com parametro vindo do beans-->
+    #{estudanteRegistrarBean.executarRetorno(estudanteRegistrarBean.estudante.nome)} <br/>
+
+    <h:form>
+        <p:commandButton value="Ir para a proxima pagina"
+                         action="#{estudanteRegistrarBean.irParaIndex2()}"/>
+    </h:form>
+
+    
+
 
 
 

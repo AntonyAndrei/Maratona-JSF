@@ -39,6 +39,20 @@ public class EstudanteRegistrarBean implements Serializable{
         System.out.println("Exibindo os dados");
     }
 
+    public void executar(String parametro){
+        System.out.println("Fazendo uma busca no BD com o PARAMETRO: " + parametro);
+        System.out.println("Processando os Dados");
+        System.out.println("Exibindo os dados");
+    }
+
+    public String executarRetorno(String parametro){
+        return "Quem eh o lindao? " + parametro;
+    }
+
+    public String irParaIndex2(){
+        return "index2?faces-redirect=true";
+    }
+
     public Map<String, String> getNomesMap() {
         return nomesMap;
     }
