@@ -3,7 +3,7 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core"
       xmlns:p="http://primefaces.org/ui">
 
@@ -68,16 +68,35 @@
     #{estudanteRegistrarBean.executarRetorno(estudanteRegistrarBean.estudante.nome)} <br/>
 
     <h:form>
-        <p:commandButton value="Ir para a proxima pagina"
-                         action="#{estudanteRegistrarBean.irParaIndex2()}"/>
+        <h:commandButton value="Ir para a proxima pagina"
+                         action="#{estudanteRegistrarBean.irParaIndex2()}"/><br/>
+        <h:commandButton value="Soltar Magia" onclick="fazMagica('Hadouken')"/><br/>
     </h:form>
 
-    
+    <h:form>
+        <p:commandButton value="Mostrar Nome" onclick="alertNome('#{estudanteRegistrarBean.estudante.nome}')"/><br/>
+    </h:form>
 
+    <!--Executando CSS-->
+    <ui:repeat value="#{estudanteRegistrarBean.nomesArray}" var="nome"
+               varStatus="status">
+        <h:outputLabel value="#{nome}" style="color: #{status.index mod 2 == 0 ? 'red' : 'green'}"/><br/>
+    </ui:repeat>
 
 
 
 </h:body>
+
+<!--Executando JS-->
+<script type="javascript">
+    function fazMagica(magica) {
+        alert(magica);
+    }
+
+    function alertNome(nome) {
+        alert(nome);
+    }
+</script>
 
 
 </html>

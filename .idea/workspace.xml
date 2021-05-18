@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f5d3b06-c494-479e-abd2-8435e5c2e6bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index2.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/estudante/EstudanteRegistrarBean.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/estudante/EstudanteRegistrarBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.xhtml" afterPath="$PROJECT_DIR$/web/index.xhtml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,8 +41,8 @@
       <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+            <state relative-caret-position="321">
+              <caret line="76" column="106" lean-forward="false" selection-start-line="76" selection-start-column="106" selection-end-line="76" selection-end-column="106" />
               <folding />
             </state>
           </provider>
@@ -731,6 +727,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Wildfly 10.1.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 10.2.0.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -819,12 +816,12 @@
       <updated>1620995755710</updated>
       <workItem from="1620995762938" duration="3975000" />
       <workItem from="1621253052190" duration="7853000" />
-      <workItem from="1621334048470" duration="6522000" />
+      <workItem from="1621334048470" duration="9046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18350000" />
+    <option name="totallyTimeSpent" value="20874000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1053,8 +1050,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        <state relative-caret-position="321">
+          <caret line="76" column="106" lean-forward="false" selection-start-line="76" selection-start-column="106" selection-end-line="76" selection-end-column="106" />
           <folding />
         </state>
       </provider>
