@@ -3,6 +3,7 @@ package br.com.devdojo.maratonajsf.bean.estudante;
 import br.com.devdojo.maratonajsf.model.Estudante;
 
 import javax.faces.bean.ManagedBean;
+import javax.faces.view.ViewScoped;
 import javax.inject.Named;
 import java.io.Serializable;
 import java.util.*;
@@ -14,6 +15,7 @@ import static java.util.Arrays.asList;
  */
 
 @Named
+@ViewScoped
 public class EstudanteRegistrarBean implements Serializable{
     private Estudante estudante = new Estudante();
 
@@ -25,6 +27,8 @@ public class EstudanteRegistrarBean implements Serializable{
     private List<String> nomesList = asList("Fulano", "Silva", "Fuzildo");
     private Set<String> nomesSet = new HashSet<>(asList("Goku", "Vegeta", "Beerus"));
     private Map<String, String> nomesMap = new HashMap<>();
+    private boolean mostrarNotas = false;
+    private boolean soltarMagia = false;
 
     {
         nomesMap.put("Goku" , "O mais Forte");
@@ -51,6 +55,43 @@ public class EstudanteRegistrarBean implements Serializable{
 
     public String irParaIndex2(){
         return "index2?faces-redirect=true";
+    }
+
+    public boolean isSoltarMagia() {
+        return soltarMagia;
+    }
+
+    public void setSoltarMagia(boolean soltarMagia) {
+        this.soltarMagia = soltarMagia;
+    }
+
+    public void mostrarMagia(){
+        if (soltarMagia == true){
+            this.soltarMagia = false;
+        }
+        if (soltarMagia == false){
+            this.soltarMagia = true;
+        }
+    }
+
+    public void esconderMagia(){
+        this.soltarMagia = false;
+    }
+
+    public void exibirNotas(){
+        this.mostrarNotas = true;
+    }
+
+    public void esconderNotas(){
+        this.mostrarNotas = false;
+    }
+
+    public boolean isMostrarNotas() {
+        return mostrarNotas;
+    }
+
+    public void setMostrarNotas(boolean mostrarNotas) {
+        this.mostrarNotas = mostrarNotas;
     }
 
     public Map<String, String> getNomesMap() {

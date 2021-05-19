@@ -7,6 +7,9 @@
       xmlns:f="http://xmlns.jcp.org/jsf/core"
       xmlns:p="http://primefaces.org/ui">
 
+<h:head>
+    <title>Maratona JSF</title>
+</h:head>
 
 <h:body>
     <!--PALAVRAS RESERVADAS: and, or, not, eq(equals), ne(not equal), lt(menor que), gt(maior que),
@@ -38,7 +41,7 @@
     <!-- List -->
     <h:outputLabel value="#{estudanteRegistrarBean.nomesList.get(0)}
     #{estudanteRegistrarBean.nomesList.get(1)}
-    #{estudanteRegistrarBean.nomesList.get(2)}" /><br/>
+    #{estudanteRegistrarBean.nomesList.get(2)}"/><br/>
     <!-- ui:repeat List -->
     <ui:repeat value="#{estudanteRegistrarBean.nomesList}" var="nome">
         <h:outputLabel value="#{nome}"/><br/>
@@ -70,11 +73,21 @@
     <h:form>
         <h:commandButton value="Ir para a proxima pagina"
                          action="#{estudanteRegistrarBean.irParaIndex2()}"/><br/>
-        <h:commandButton value="Soltar Magia" onclick="fazMagica('Hadouken')"/><br/>
+
+        <p:commandButton value="Soltar Magia">
+            <f:ajax render="pgMagia" listener="#{estudanteRegistrarBean.mostrarMagia}"/>
+        </p:commandButton>
+        <h:panelGroup id="pgMagia">
+            <ui:fragment id="fragmentMagia" rendered="#{estudanteRegistrarBean.soltarMagia}">
+                <div>KAMEHAMEHAAAAAAAAAAAAAAA!!!!!!</div>
+            </ui:fragment>
+        </h:panelGroup>
+
+
     </h:form>
 
     <h:form>
-        <p:commandButton value="Mostrar Nome" onclick="alertNome('#{estudanteRegistrarBean.estudante.nome}')"/><br/>
+        <h:commandButton value="Mostrar Nome" onclick="alertNome('#{estudanteRegistrarBean.estudante.nome}')"/><br/>
     </h:form>
 
     <!--Executando CSS-->
@@ -82,7 +95,31 @@
                varStatus="status">
         <h:outputLabel value="#{nome}" style="color: #{status.index mod 2 == 0 ? 'red' : 'green'}"/><br/>
     </ui:repeat>
+    <br/>
 
+    <h:form id="form">
+        <p:commandButton value="Exibir Notas">
+            <f:ajax render="notasGrid" listener="#{estudanteRegistrarBean.exibirNotas()}"/>
+        </p:commandButton> <br/>
+
+
+        <h:panelGrid id="notasGrid">
+            <h:outputText value="#{estudanteRegistrarBean.estudante.nome} "/>
+            <h:outputText value="#{estudanteRegistrarBean.estudante.sobrenome} "/>
+            <h:outputText value="#{estudanteRegistrarBean.estudante.turno} "/> <br/>
+
+            <h:outputText value="#{estudanteRegistrarBean.estudante.nota1} "
+                          rendered="#{estudanteRegistrarBean.mostrarNotas}"/>
+            <h:outputText value="#{estudanteRegistrarBean.estudante.nota2} "
+                          rendered="#{estudanteRegistrarBean.mostrarNotas}"/>
+            <h:outputText value="#{estudanteRegistrarBean.estudante.nota3} "
+                          rendered="#{estudanteRegistrarBean.mostrarNotas}"/>
+        </h:panelGrid>
+
+        <p:commandButton value="Ocultar notas">
+            <f:ajax render="notasGrid" listener="#{estudanteRegistrarBean.esconderNotas()}"/>
+        </p:commandButton>
+    </h:form>
 
 
 </h:body>
