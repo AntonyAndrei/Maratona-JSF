@@ -33,7 +33,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
+            <state relative-caret-position="950">
               <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
               <folding />
             </state>
@@ -43,8 +43,8 @@
       <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="446">
+              <caret line="130" column="45" lean-forward="false" selection-start-line="130" selection-start-column="45" selection-end-line="130" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -63,7 +63,7 @@
       <file leaf-file-name="Estudante.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/model/Estudante.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
+            <state relative-caret-position="50">
               <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -85,8 +85,8 @@
       <file leaf-file-name="EstudanteRegistrarBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/estudante/EstudanteRegistrarBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+            <state relative-caret-position="1225">
+              <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1652#1653#0" expanded="true" />
@@ -95,16 +95,18 @@
                 <element signature="e#1775#1776#0" expanded="true" />
                 <element signature="e#1830#1831#0" expanded="true" />
                 <element signature="e#1876#1877#0" expanded="true" />
-                <element signature="e#2113#2114#0" expanded="true" />
-                <element signature="e#2153#2154#0" expanded="true" />
-                <element signature="e#2185#2186#0" expanded="true" />
-                <element signature="e#2225#2226#0" expanded="true" />
-                <element signature="e#2259#2260#0" expanded="true" />
+                <element signature="e#1909#1910#0" expanded="true" />
+                <element signature="e#1948#1949#0" expanded="true" />
+                <element signature="e#1982#1983#0" expanded="true" />
+                <element signature="e#2022#2023#0" expanded="true" />
+                <element signature="e#2054#2055#0" expanded="true" />
+                <element signature="e#2094#2095#0" expanded="true" />
+                <element signature="e#2128#2129#0" expanded="true" />
+                <element signature="e#2169#2170#0" expanded="true" />
+                <element signature="e#2208#2209#0" expanded="true" />
+                <element signature="e#2243#2244#0" expanded="true" />
                 <element signature="e#2300#2301#0" expanded="true" />
-                <element signature="e#2339#2340#0" expanded="true" />
-                <element signature="e#2374#2375#0" expanded="true" />
-                <element signature="e#2431#2432#0" expanded="true" />
-                <element signature="e#2479#2480#0" expanded="true" />
+                <element signature="e#2348#2349#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,8 +139,8 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/model/Estudante.java" />
         <option value="$PROJECT_DIR$/web/index2.xhtml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/web/index.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/estudante/EstudanteRegistrarBean.java" />
+        <option value="$PROJECT_DIR$/web/index.xhtml" />
       </list>
     </option>
   </component>
@@ -177,8 +179,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -269,7 +272,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -784,12 +786,13 @@
       <workItem from="1620995762938" duration="3975000" />
       <workItem from="1621253052190" duration="7853000" />
       <workItem from="1621334048470" duration="9599000" />
-      <workItem from="1621419190782" duration="9715000" />
+      <workItem from="1621419190782" duration="10442000" />
+      <workItem from="1621508270132" duration="1031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31142000" />
+    <option name="totallyTimeSpent" value="32900000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -858,6 +861,76 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index2.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/model/Estudante.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/model/enums/Turno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/estudante/EstudanteRegistrarBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1741#1742#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1830#1831#0" expanded="true" />
+            <element signature="e#1876#1877#0" expanded="true" />
+            <element signature="e#1909#1910#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2094#2095#0" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
+            <element signature="e#2169#2170#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="e#2300#2301#0" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="85" column="34" lean-forward="false" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding />
@@ -902,16 +975,18 @@
             <element signature="e#1775#1776#0" expanded="true" />
             <element signature="e#1830#1831#0" expanded="true" />
             <element signature="e#1876#1877#0" expanded="true" />
-            <element signature="e#2113#2114#0" expanded="true" />
-            <element signature="e#2153#2154#0" expanded="true" />
-            <element signature="e#2185#2186#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#2259#2260#0" expanded="true" />
+            <element signature="e#1909#1910#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2094#2095#0" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
+            <element signature="e#2169#2170#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#2243#2244#0" expanded="true" />
             <element signature="e#2300#2301#0" expanded="true" />
-            <element signature="e#2339#2340#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-            <element signature="e#2431#2432#0" expanded="true" />
-            <element signature="e#2479#2480#0" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -962,16 +1037,18 @@
             <element signature="e#1775#1776#0" expanded="true" />
             <element signature="e#1830#1831#0" expanded="true" />
             <element signature="e#1876#1877#0" expanded="true" />
-            <element signature="e#2113#2114#0" expanded="true" />
-            <element signature="e#2153#2154#0" expanded="true" />
-            <element signature="e#2185#2186#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#2259#2260#0" expanded="true" />
+            <element signature="e#1909#1910#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2094#2095#0" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
+            <element signature="e#2169#2170#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#2243#2244#0" expanded="true" />
             <element signature="e#2300#2301#0" expanded="true" />
-            <element signature="e#2339#2340#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-            <element signature="e#2431#2432#0" expanded="true" />
-            <element signature="e#2479#2480#0" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1026,7 +1103,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/model/Estudante.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="50">
           <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1042,10 +1119,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/estudante/EstudanteRegistrarBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+        <state relative-caret-position="1225">
+          <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1652#1653#0" expanded="true" />
@@ -1054,32 +1139,26 @@
             <element signature="e#1775#1776#0" expanded="true" />
             <element signature="e#1830#1831#0" expanded="true" />
             <element signature="e#1876#1877#0" expanded="true" />
-            <element signature="e#2113#2114#0" expanded="true" />
-            <element signature="e#2153#2154#0" expanded="true" />
-            <element signature="e#2185#2186#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#2259#2260#0" expanded="true" />
+            <element signature="e#1909#1910#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2094#2095#0" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
+            <element signature="e#2169#2170#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#2243#2244#0" expanded="true" />
             <element signature="e#2300#2301#0" expanded="true" />
-            <element signature="e#2339#2340#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-            <element signature="e#2431#2432#0" expanded="true" />
-            <element signature="e#2479#2480#0" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="446">
+          <caret line="130" column="45" lean-forward="false" selection-start-line="130" selection-start-column="45" selection-end-line="130" selection-end-column="45" />
           <folding />
         </state>
       </provider>

@@ -77,9 +77,13 @@
         <p:commandButton value="Soltar Magia">
             <f:ajax render="pgMagia" listener="#{estudanteRegistrarBean.mostrarMagia}"/>
         </p:commandButton>
+
         <h:panelGroup id="pgMagia">
             <ui:fragment id="fragmentMagia" rendered="#{estudanteRegistrarBean.soltarMagia}">
                 <div>KAMEHAMEHAAAAAAAAAAAAAAA!!!!!!</div>
+                <p:commandButton value="Ocultar Magia">
+                    <f:ajax render="pgMagia" listener="#{estudanteRegistrarBean.esconderMagia}"/>
+                </p:commandButton>
             </ui:fragment>
         </h:panelGroup>
 
@@ -117,9 +121,14 @@
         </h:panelGrid>
 
         <p:commandButton value="Ocultar notas">
-            <f:ajax render="notasGrid" listener="#{estudanteRegistrarBean.esconderNotas()}"/>
+            <f:ajax render="notasGrid" listener="#{estudanteRegistrarBean.esconderNotas()}"/><br/>
         </p:commandButton>
     </h:form>
+
+    <!--Lambdas-->
+    #{(soma -> soma + num)(10)}<br/>
+    #{((v1,v2,v3) -> v1*v2*v3) (1,5,10)}<br/>
+    #{cubo = (x -> x * x * x); cubo(10)}<br/>
 
 
 </h:body>

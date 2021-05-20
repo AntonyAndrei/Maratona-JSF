@@ -66,12 +66,7 @@ public class EstudanteRegistrarBean implements Serializable{
     }
 
     public void mostrarMagia(){
-        if (soltarMagia == true){
-            this.soltarMagia = false;
-        }
-        if (soltarMagia == false){
-            this.soltarMagia = true;
-        }
+        this.soltarMagia = true;
     }
 
     public void esconderMagia(){
