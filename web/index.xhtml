@@ -5,7 +5,8 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://java.sun.com/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core"
-      xmlns:p="http://primefaces.org/ui">
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
 
 <h:head>
     <title>Maratona JSF</title>
@@ -128,8 +129,37 @@
     <!--Lambdas-->
     #{(soma -> soma + num)(10)}<br/>
     #{((v1,v2,v3) -> v1*v2*v3) (1,5,10)}<br/>
-    #{cubo = (x -> x * x * x); cubo(10)}<br/>
+    #{cubo = (x -> x * x * x); cubo(10)}<br/><br/><br/>
 
+    <!--Listas-->
+    <ui:repeat value="#{['Antony','eh','foda']}" var="fodeza">
+        #{fodeza}
+    </ui:repeat> <br/><br/>
+
+    <!--Set-->
+    <ui:repeat value="#{{'Antony','eh','foda','foda'}}" var="fodeza">
+        #{fodeza}
+    </ui:repeat><br/><br/>
+
+    <!--Map-->
+    <ui:repeat value="#{{'Melhor Lugar': 'Canadá', 'Melhor herói' : 'Goku'}}" var="fodezaMap">
+        <ui:repeat value="#{fodezaMap.entrySet().toArray()}" var="entry">
+            #{entry.key} - #{entry.value} <br/>
+        </ui:repeat>
+    </ui:repeat><br/>
+
+    <!--Stream-->
+    <c:set var="numeroList" value="#{[1,2,3,4,5,6,7,8,9,10]}"/>
+    <ui:repeat value="#{numeroList.stream().filter(v-> v>5).toList()}" var="result">
+        #{result}
+    </ui:repeat>
+    <br/>
+    #{numeroList.stream().average().get()}<br/>
+    soma todos os numeros:
+    #{numeroList.stream().sum()}<br/>
+    soma com filtro aplicado:
+    #{numeroList.stream().filter(v-> v>5).sum()}<br/><br/>
+    
 
 </h:body>
 
